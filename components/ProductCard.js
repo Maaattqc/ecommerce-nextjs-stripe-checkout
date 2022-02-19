@@ -34,7 +34,7 @@ const ProductCard = props => {
 
     if (adding) {
       setAdding(false);
-      toast.success(`${props.name} added`, {
+      toast.success(`${props.name} a bien été ajouté au panier`, {
         id: toastId.current,
       });
     }
