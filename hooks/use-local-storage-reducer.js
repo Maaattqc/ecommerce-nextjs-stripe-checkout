@@ -26,7 +26,7 @@ const useLocalStorageReducer = (key = '', reducer, initialValue = null) => {
     try {
       window.localStorage.setItem(key, JSON.stringify(state));
     } catch (error) {
-      console.error(`Unable to store new value for ${key} in localStorage.`);
+      console.error(`Erreur de storage pour la nouvelle valeur ${key} dans le localStorage.`);
     }
   }, [state]);
 

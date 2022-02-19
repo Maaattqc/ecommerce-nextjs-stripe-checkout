@@ -17,7 +17,7 @@ const ProductCard = props => {
     event.preventDefault();
 
     setAdding(true);
-    toastId.current = toast.loading('Adding 1 item...');
+    toastId.current = toast.loading("Ajout d'un item...");
 
     if (typeof props.onClickAdd === 'function') {
       props.onClickAdd();
@@ -82,7 +82,7 @@ const ProductCard = props => {
                 : 'disabled:hover:bg-transparent disabled:hover:text-current disabled:hover:border-gray-200'
             }`}
           >
-            {adding ? 'Adding...' : 'Add to cart'}
+            {adding ? 'Ajout...' : 'Ajouter au panier'}
           </button>
         </div>
       </a>

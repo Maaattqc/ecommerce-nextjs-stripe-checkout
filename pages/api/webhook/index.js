@@ -24,17 +24,17 @@ export default async function handler(req, res) {
         process.env.STRIPE_WEBHOOK_SECRET
       );
     } catch (err) {
-      console.log(`❌ Error message: ${err.message}`);
+      console.log(`❌ Erreur message: ${err.message}`);
       res.status(400).send(`Webhook Error: ${err.message}`);
       return;
     }
 
     // Successfully constructed event
-    console.log('✅ Success:', event.id);
+    console.log('✅ Succès:', event.id);
 
     // 2. Handle event type (add business logic here)
     if (event.type === 'checkout.session.completed') {
-      console.log(`💰  Payment received!`);
+      console.log(`💰  Paiement reçu!`);
     } else {
       console.warn(`🤷‍♀️ Unhandled event type: ${event.type}`);
     }
