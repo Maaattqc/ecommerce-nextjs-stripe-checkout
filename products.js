@@ -2,7 +2,7 @@ const products = [
   {
     id: 'numerique_faute_aux_lilas',
     name: '[TOME 1 Numérique] LA FAUTE AUX LILAS ',
-    price: 795,
+    price: 795.0,
     currency: 'CAD',
     image: '/products/roman.jpg',
     rating: {
@@ -24,7 +24,7 @@ const products = [
   {
     id: 'numerique_journal_historique_de_la_station',
     name: '[Version 1 Numérique] LE JOURNAL HISTORIQUE DE LA STATION',
-    price: 495,
+    price: 495.0,
     currency: 'CAD',
     image: '/products/journal.jpg',
     rating: {
@@ -35,7 +35,7 @@ const products = [
   {
     id: 'papier_journal_historique_de_la_station',
     name: '[Version 1 Papier] LE JOURNAL HISTORIQUE DE LA STATION',
-    price: 995,
+    price: 995.0,
     currency: 'CAD',
     image: '/products/journal.jpg',
     rating: {
