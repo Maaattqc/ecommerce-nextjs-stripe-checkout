@@ -9,7 +9,7 @@ const Footer = () => (
         rel="noopener noreferrer"
         className="text-gray-500 hover:text-current"
       >
-        Copyrights 2021-2022 LES PUBLICATIONS UNDESNÔTRES ©
+        Copyrights 2021-2022 © LES PUBLICATIONS UNDESNÔTRES
       </a>
     </p>
   </footer>
